@@ -1,9 +1,9 @@
 @charset "UTF-8";
-
+/* Trocar as fontes */
 @font-face {
     font-family: 'TLURough';
     src: url('fonts/The Last Of Us Rough.ttf') format('TrueType'); 
-  }
+}
 
 @font-face {
 font-family: 'TLU';
@@ -16,14 +16,43 @@ src: url('fonts/The Last Of Us.ttf') format('TrueType');
 }
 
 * {
-    width: 0;
-    height: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bolder;
 }
 
 h1 {
-    font-family: 'TLURough';
+    font-family: 'TLU';
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 98vw;
+    background: rgba(0, 0, 0, 0.11);
+}
+
+.menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'TLU';
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.menu li:hover {
+    background: gray;
+}
+
