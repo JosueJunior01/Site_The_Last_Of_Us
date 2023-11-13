@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'TLURough';
+    src: url('fonts/The Last Of Us Rough.ttf') format('TrueType'); 
+  }
+
+@font-face {
+font-family: 'TLU';
+src: url('fonts/The Last Of Us.ttf') format('TrueType'); 
+}
+
+:root {
+    --cor0: black;
+    --cor1: white;    
+}
+
+* {
+    width: 0;
+    height: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'TLURough';
+}
