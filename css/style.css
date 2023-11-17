@@ -11,8 +11,13 @@ src: url('fonts/The Last Of Us.ttf') format('TrueType');
 }
 
 :root {
-    --cor0: black;
-    --cor1: white;    
+    --cor0: #0C0D09;
+    --cor1: white;
+    --cor2: #BF793B;
+    --cor3: #BF6C3B;
+    --cor4: #B9BF04;
+    --cor5: #F21D44;
+    --cor6: #f3f3f3;    
 }
 
 * {
@@ -23,6 +28,7 @@ src: url('fonts/The Last Of Us.ttf') format('TrueType');
 body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    background: var(--cor0);
 }
 
 a {
@@ -32,7 +38,8 @@ a {
 }
 
 h1 {
-    font-family: 'TLU';
+    font-family: 'TLURough';
+    color: white;
 }
 
 header {
@@ -40,19 +47,54 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    width: 98vw;
-    background: rgba(0, 0, 0, 0.11);
+    width: 100vw;
+    background: var(--cor6);
+}
+
+.logo {
+    position: relative;
+    left: 400px;
+    display: flex;
 }
 
 .menu li {
+    position: relative;
+    right: 200px;
     display: inline-block;
     text-transform: uppercase;
     font-family: 'TLU';
-    margin-right: 10px;
-    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
 }
 
 .menu li:hover {
-    background: gray;
+    text-decoration: overline;
 }
 
+.item-menu-especial {
+    color: var(--cor1);
+    background: var(--cor2);
+}
+
+.titulo-secao {
+    position: relative;
+    top: 250px;
+    left: 300px;
+    text-transform: uppercase;
+    font-size: 2.6em;
+}
+
+.botao-secao-1 {
+    position: relative;
+    top: 400px;
+    left: 300px;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: var(--cor2);
+    padding: 10px 50px;
+    width: 100px;
+    height: 50px;
+}
