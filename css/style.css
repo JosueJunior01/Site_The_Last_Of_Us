@@ -87,6 +87,7 @@ footer {
 }
 
 .item-menu-especial:hover {
+    color: rgb(231, 231, 231);
     text-decoration: none !important;
     background: var(--cor3);
 }
@@ -107,10 +108,19 @@ footer {
     font-size: 1.2em;
     font-weight: bold;
     background: var(--cor2);
+    border-radius: 0px 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px 50px;
     width: 100px;
     height: 50px;
+    transition: 1s;
+}
+
+.botao-secao-1:hover {
+    background: var(--cor3);
+    color: white;
+    border-radius: 0px;
+    transition: 1s;
 }
 
 .banner-the-last-of-us {
