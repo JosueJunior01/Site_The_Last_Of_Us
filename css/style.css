@@ -39,7 +39,7 @@ a {
     font-weight: bolder;
 }
 
-h1 {
+h1, p {
     font-family: 'TLURough';
     color: white;
 }
@@ -127,4 +127,51 @@ footer {
     background: url('../imagens/the_last_of_us_wallpaper-1.jpg') no-repeat top;
     background-size: cover;
     height: 87vh;
+}
+
+.secao-cartoes {
+    height: 75vh;
+}
+
+.counteiner {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+}
+
+.cartoes {
+    text-align: left;
+    background: gray;
+    width: 400px;
+    height: 250px;
+    margin: 100px auto;
+}
+
+.cartoes h1 {
+    position: relative;
+    top: 270px;
+    color: var(--cor2);
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.cartoes p {
+    position: relative;
+    top: 280px;
+}
+
+.cartao-1 {
+    background: url('../imagens/imagem-cartao-1.jpeg') no-repeat top;
+    background-size: cover;
+}
+
+.cartao-2 {
+    background: url('../imagens/imagem-cartao-2.jpg') no-repeat right;
+    background-size: cover;
+}
+
+.cartao-3 {
+    background: url('../imagens/imagem-cartao-3.jpg') no-repeat top;
+    background-size: cover;
 }
