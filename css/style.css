@@ -58,8 +58,8 @@ header {
 }
 
 footer {
-    text-align: center;
     color: white;
+    height: 30vh;
 }
 
 .logo {
@@ -226,4 +226,43 @@ footer {
 .anuncio a {
     position: relative;
     left: 500px;
+}
+
+.playstation {
+    background: var(--cor3);
+    height: 70vh;
+}
+
+.playstation-logo {
+    position: relative;
+    top: 80px;
+    display: block;
+    margin: auto;
+}
+
+.redes-sociais {
+    position: relative;
+    top: 150px;
+    left: 39%;
+    display: flex;
+    background: #f3f3f3;
+    border-radius: 50%;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.rede1 {
+    background: url("../svg/facebook-svgrepo-com.svg") no-repeat center;
+    background-size: cover;
+}
+
+.rede2 {
+    background: url("../svg/instagram-round-svgrepo-com.svg") no-repeat center;
+    background-size: cover;
+}
+
+.rede3 {
+    background: url("../svg/youtube-round-svgrepo-com.svg") no-repeat center;
+    background-size: cover;
 }
