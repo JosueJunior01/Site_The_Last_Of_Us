@@ -39,6 +39,10 @@ a {
     font-weight: bolder;
 }
 
+ul {
+    list-style: none;
+}
+
 h1, h2, h3 {
     color: var(--cor2);
     text-transform: uppercase;
@@ -59,7 +63,7 @@ header {
 
 footer {
     color: white;
-    height: 30vh;
+    height: 50vh;
 }
 
 .logo {
@@ -265,4 +269,25 @@ footer {
 .rede3 {
     background: url("../svg/youtube-round-svgrepo-com.svg") no-repeat center;
     background-size: cover;
+}
+
+.classificacao {
+    position: relative;
+    top: 100px;
+    display: flex;
+    background: rgb(31, 31, 31);
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+}
+
+.classificacao li {
+    margin: 20px;
+}
+
+.classific-18 {
+    width: 200px;
+    height: 200px;
 }
